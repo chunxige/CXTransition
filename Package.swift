@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "Transition",
+    name: "CXTransition",
     products: [
         .library(
-            name: "Transition",
-            targets: ["Transition"]),
+            name: "CXTransition",
+            targets: ["CXTransition"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Transition",
+            name: "CXTransition",
             path: "Transition/Classes")
     ]
 )
